@@ -6,6 +6,10 @@
   "repository": "git@github.com:nycdavid/cnsl.git",
   "author": "David Ko <david.ko@velvetreactor.com>",
   "license": "MIT",
+  "scripts": {
+
+  },
+  "bin": "./index.js",
   "dependencies": {
     "commander": "^2.13.0"
   }
