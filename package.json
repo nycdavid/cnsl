@@ -1,0 +1,12 @@
+{
+  "name": "cnsl",
+  "version": "1.0.0",
+  "description": "nodejs-based Consul CLI tool",
+  "main": "index.js",
+  "repository": "git@github.com:nycdavid/cnsl.git",
+  "author": "David Ko <david.ko@velvetreactor.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0"
+  }
+}
