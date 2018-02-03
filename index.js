@@ -3,7 +3,7 @@
 const cnsl = require('commander');
 
 cnsl
-  .option('-u', 'The user')
-  .version('1.0.0');
+  .option('-s, --say [phrase]', 'Make cnsl speak')
+  .parse(process.argv);
 
-// console.log('Hello from cnsl!');
+if (cnsl.say) console.log('%s', cnsl.say);
